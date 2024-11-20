@@ -1,0 +1,85 @@
+/* Подключаем общий шрифт для всего сайта */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+/* Стили для шапки сайта */
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Стили для главных заголовков */
+h1, h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Основной контент */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+main {
+    background: url('images/beatles-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: calc(100vh - 100px);
+}
+/* Фон для главной страницы */
+body.home main {
+    background: url('images/beatles-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: calc(100vh - 100px);
+}
+
+/* Фон для страницы "О группе" */
+body.about main {
+    background: url('images/about-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: calc(100vh - 100px);
+}
+
+/* Фон для страницы "Контакты" */
+body.contacts main {
+    background: url('images/contacts-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: calc(100vh - 100px);
+}
+
